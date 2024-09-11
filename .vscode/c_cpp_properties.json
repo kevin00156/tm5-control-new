@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/code",
+                "${workspaceFolder}/code/header",
+                "${workspaceFolder}/ui",
+                "/home/kevin/Qt5.12.0/5.12.0/gcc_64/include",
+                "/home/kevin/Qt5.12.0/5.12.0/gcc_64/include/QtCore",
+                "/home/kevin/Qt5.12.0/5.12.0/gcc_64/include/QtGui",
+                "/home/kevin/Qt5.12.0/5.12.0/gcc_64/include/QtWidgets",
+                "/home/kevin/catkin_ws/devel/include/**",
+                "/opt/ros/noetic/include",
+                "/usr/include",
+                "/opt/ros/noetic/include/moveit/**",
+                "/usr/include/eigen3"
+                
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

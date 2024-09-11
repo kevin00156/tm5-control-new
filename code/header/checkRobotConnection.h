@@ -1,0 +1,6 @@
+#ifndef CHECKROBOTCONNECTION_H
+#define CHECKROBOTCONNECTION_H
+
+bool checkRobotConnection();
+
+#endif // CHECKROBOTCONNECTION_H
