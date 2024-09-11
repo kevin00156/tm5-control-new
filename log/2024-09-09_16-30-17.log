@@ -1,0 +1,17 @@
+[2024-09-09 16:30:17.823] [file_logger] [info] Initialization
+[2024-09-09 16:30:17.823] [file_logger] [info] ----------load widget state MainWindow----------
+[2024-09-09 16:30:17.823] [file_logger] [info] ----------load widget state centralwidget----------
+[2024-09-09 16:30:17.823] [file_logger] [info] ----------load widget state layoutWidget----------
+[2024-09-09 16:30:17.823] [file_logger] [info] ----------load widget state layoutWidget_2----------
+[2024-09-09 16:30:17.823] [file_logger] [info] load checkbox : checkboxLaunchSim = true
+[2024-09-09 16:30:17.823] [file_logger] [info] load line_edit : textRobotIP = 192.168.10.2
+[2024-09-09 16:30:17.823] [file_logger] [info] ----------load widget state textRobotIP----------
+[2024-09-09 16:30:17.823] [file_logger] [info] ----------load widget state widget----------
+[2024-09-09 16:30:17.823] [file_logger] [info] ----------load widget state file_selector_widget_PoseControl----------
+[2024-09-09 16:30:17.823] [file_logger] [info] ----------load widget state widget----------
+[2024-09-09 16:30:17.823] [file_logger] [info] load line_edit : textFilePath = /home/kevin/qt/tm5-control-new/data/poses.yaml
+[2024-09-09 16:30:17.823] [file_logger] [info] ----------load widget state textFilePath----------
+[2024-09-09 16:30:17.823] [file_logger] [info] ----------load widget state comboBox_PoseSelector----------
+[2024-09-09 16:30:17.823] [file_logger] [info] ----------load widget state menubar----------
+[2024-09-09 16:30:17.823] [file_logger] [info] ----------load widget state statusbar----------
+[2024-09-09 16:30:17.825] [file_logger] [info] refresh_comboBox_PoseSelector triggered

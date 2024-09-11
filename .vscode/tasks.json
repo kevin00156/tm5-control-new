@@ -1,0 +1,131 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run uic for all UIs",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "-c",
+                "uic ${workspaceFolder}/ui/mainwindow.ui -o ${workspaceFolder}/ui/ui_mainwindow.h && uic ${workspaceFolder}/ui/file_selector_widget.ui -o ${workspaceFolder}/ui/ui_file_selector_widget.h"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "options": {
+                "env": {
+                    "PATH": "/home/kevin/Qt/5.12.0/gcc_64/bin:${env:PATH}"
+                }
+            },
+            "detail": "將 .ui 文件轉換為頭文件"
+        },
+        {
+            "label": "Run moc for mainwindow",
+            "type": "shell",
+            "command": "moc",
+            "args": [
+                "${workspaceFolder}/ui/mainwindow.h",
+                "-o",
+                "${workspaceFolder}/code/moc/moc_mainwindow.cpp"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "options": {
+                "env": {
+                    "PATH": "/home/kevin/Qt/5.12.0/gcc_64/bin:${env:PATH}"
+                }
+            },
+            "detail": "將 mainwindow.h 文件轉換為 .cpp 文件"
+        },
+        {
+            "label": "Run moc for file_selector_widget",
+            "type": "shell",
+            "command": "moc",
+            "args": [
+                "${workspaceFolder}/ui/file_selector_widget.h",
+                "-o",
+                "${workspaceFolder}/code/moc/moc_file_selector_widget.cpp"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "options": {
+                "env": {
+                    "PATH": "/home/kevin/Qt/5.12.0/gcc_64/bin:${env:PATH}"
+                }
+            },
+            "detail": "將 file_selector_widget.h 文件轉換為 .cpp 文件"
+        },
+        {
+            "label": "Run moc for slotLogger",
+            "type": "shell",
+            "command": "moc",
+            "args": [
+                "${workspaceFolder}/code/class/slotLogger.h",
+                "-o",
+                "${workspaceFolder}/code/moc/moc_slotLogger.cpp"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "options": {
+                "env": {
+                    "PATH": "/home/kevin/Qt/5.12.0/gcc_64/bin:${env:PATH}"
+                }
+            },
+            "detail": "將 slotLogger.h 文件轉換為 .cpp 文件"
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: clang++-10 建置使用中檔案",
+            "command": "/usr/bin/clang++-10",
+            "args": [
+                "-fcolor-diagnostics",
+                "-fansi-escape-codes",
+                "-g",
+                "-fPIC",
+                "${workspaceFolder}/code/*.cpp",
+                "${workspaceFolder}/code/moc/*.cpp",
+                "-o",
+                "${workspaceFolder}/mainwindow",
+                "-I${workspaceFolder}/ui",  // 包含 ui 文件夾中的頭文件
+                "-I${workspaceFolder}/code", // 包含 code 文件夾中的頭文件
+                "-I/home/kevin/Qt5.12.0/5.12.0/gcc_64/include",
+                "-I/home/kevin/Qt5.12.0/5.12.0/gcc_64/include/QtCore",
+                "-I/home/kevin/Qt5.12.0/5.12.0/gcc_64/include/QtGui",
+                "-I/home/kevin/Qt5.12.0/5.12.0/gcc_64/include/QtWidgets",
+                "-L/home/kevin/Qt5.12.0/5.12.0/gcc_64/lib",
+                "-lQt5Core",
+                "-lQt5Gui",
+                "-lQt5Widgets",
+                "-lyaml-cpp"  // 新增的部分，用於鏈接 yaml-cpp 庫
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn": [
+                "Run uic for all UIs",
+                "Run moc for mainwindow",
+                "Run moc for file_selector_widget",
+                "Run moc for slotLogger"
+            ],
+            "detail": "編譯器: /usr/bin/clang++-10"
+        }
+    ]
+}

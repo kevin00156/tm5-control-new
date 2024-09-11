@@ -1,0 +1,23 @@
+[2024-09-09 14:17:09.690] [file_logger] [info] Initialization
+[2024-09-09 14:17:09.855] [file_logger] [info] Function QDBusConnectionDispatchEnabler triggered
+[2024-09-09 14:17:09.856] [file_logger] [info] Function QAnimationTimer triggered
+[2024-09-09 14:17:09.856] [file_logger] [info] Function QAnimationTimer triggered
+[2024-09-09 14:17:09.870] [file_logger] [info] Function QLineEdit triggered
+[2024-09-09 14:17:09.870] [file_logger] [info] Function QLineEdit triggered
+[2024-09-09 14:17:11.077] [file_logger] [info] Function QAnimationTimer triggered
+[2024-09-09 14:17:18.445] [file_logger] [info] Function QLineEdit triggered
+[2024-09-09 14:17:18.445] [file_logger] [info] Function QLineEdit triggered
+[2024-09-09 14:17:18.530] [file_logger] [info] Function QLineEdit triggered
+[2024-09-09 14:17:18.530] [file_logger] [info] Function QLineEdit triggered
+[2024-09-09 14:17:20.158] [file_logger] [info] on_pushButton_clicked
+[2024-09-09 14:17:23.513] [file_logger] [info] Function QAnimationTimer triggered
+[2024-09-09 14:17:50.856] [file_logger] [info] Function QLineEdit triggered
+[2024-09-09 14:17:50.856] [file_logger] [info] Function QLineEdit triggered
+[2024-09-09 14:17:53.647] [file_logger] [info] Function QLineEdit triggered
+[2024-09-09 14:17:53.647] [file_logger] [info] Function QLineEdit triggered
+[2024-09-09 14:18:03.792] [file_logger] [info] Function QLineEdit triggered
+[2024-09-09 14:18:03.792] [file_logger] [info] Function QLineEdit triggered
+[2024-09-09 14:18:09.151] [file_logger] [info] Function QLineEdit triggered
+[2024-09-09 14:18:09.151] [file_logger] [info] Function QLineEdit triggered
+[2024-09-09 14:18:11.185] [file_logger] [info] Function QLineEdit triggered
+[2024-09-09 14:18:11.185] [file_logger] [info] Function QLineEdit triggered

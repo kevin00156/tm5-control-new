@@ -1,0 +1,21 @@
+[2024-09-09 16:38:43.485] [file_logger] [info] On mainwindow loading
+[2024-09-09 16:38:43.485] [file_logger] [info] ----------load widget state MainWindow----------
+[2024-09-09 16:38:43.485] [file_logger] [info] ----------load widget state centralwidget----------
+[2024-09-09 16:38:43.485] [file_logger] [info] ----------load widget state layoutWidget_2----------
+[2024-09-09 16:38:43.485] [file_logger] [info] load checkbox : checkboxLaunchSim = true
+[2024-09-09 16:38:43.485] [file_logger] [info] load line_edit : textRobotIP = 192.168.10.2
+[2024-09-09 16:38:43.485] [file_logger] [info] ----------load widget state widget----------
+[2024-09-09 16:38:43.485] [file_logger] [info] ----------load widget state file_selector_widget_PoseControl----------
+[2024-09-09 16:38:43.485] [file_logger] [info] ----------load widget state widget----------
+[2024-09-09 16:38:43.485] [file_logger] [info] load line_edit : textFilePath = /home/kevin/qt/tm5-control-new/data/poses.yaml
+[2024-09-09 16:38:43.488] [file_logger] [info] refresh_comboBox_PoseSelector triggered
+[2024-09-09 16:39:04.456] [file_logger] [info] ----------save widget state MainWindow----------
+[2024-09-09 16:39:04.456] [file_logger] [info] ----------save widget state centralwidget----------
+[2024-09-09 16:39:04.456] [file_logger] [info] ----------save widget state layoutWidget_2----------
+[2024-09-09 16:39:04.456] [file_logger] [info] set checkbox : checkboxLaunchSim = true
+[2024-09-09 16:39:04.456] [file_logger] [info] set line_edit : textRobotIP = 192.168.10.2
+[2024-09-09 16:39:04.456] [file_logger] [info] ----------save widget state widget----------
+[2024-09-09 16:39:04.456] [file_logger] [info] ----------save widget state file_selector_widget_PoseControl----------
+[2024-09-09 16:39:04.456] [file_logger] [info] ----------save widget state widget----------
+[2024-09-09 16:39:04.456] [file_logger] [info] set line_edit : textFilePath = /home/kevin/qt/tm5-control-new/data/poses.yaml
+[2024-09-09 16:39:04.456] [file_logger] [info] On mainwindow disposing

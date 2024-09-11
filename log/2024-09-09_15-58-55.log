@@ -1,0 +1,6 @@
+[2024-09-09 15:58:55.508] [file_logger] [info] Initialization
+[2024-09-09 15:58:55.510] [file_logger] [info] refresh_comboBox_PoseSelector triggered
+[2024-09-09 15:59:35.686] [file_logger] [info] on_buttonSetGripperGrip_clicked triggered
+[2024-09-09 15:59:35.688] [file_logger] [info] Gripper grip!
+[2024-09-09 16:28:20.085] [file_logger] [info] on_buttonSetGripperGrip_clicked triggered
+[2024-09-09 16:28:20.087] [file_logger] [info] Gripper grip!

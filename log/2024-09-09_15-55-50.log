@@ -1,0 +1,57 @@
+[2024-09-09 15:55:50.577] [file_logger] [info] Initialization
+[2024-09-09 15:55:50.577] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.577] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.577] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.577] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.577] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.577] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.577] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.577] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.577] [file_logger] [info] load checkbox : checkboxLaunchSim = false
+[2024-09-09 15:55:50.577] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.577] [file_logger] [info] load line_edit : textRobotIP = 192.168.10.2
+[2024-09-09 15:55:50.577] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.577] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.577] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.577] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.577] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.578] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.578] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.578] [file_logger] [info] load line_edit : textFilePath = /home/kevin/qt/tm5-control-new/data/poses.yaml
+[2024-09-09 15:55:50.578] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.578] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.578] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.578] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.578] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.578] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.578] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.578] [file_logger] [info] ----------load widget state----------
+[2024-09-09 15:55:50.581] [file_logger] [info] refresh_comboBox_PoseSelector triggered
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] set checkbox : checkboxLaunchSim = true
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] set line_edit : textRobotIP = 192.168.10.2
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] set line_edit : textFilePath = /home/kevin/qt/tm5-control-new/data/poses.yaml
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
+[2024-09-09 15:56:45.456] [file_logger] [info] ----------save widget state----------
