@@ -28,19 +28,21 @@ log/：存放專案的日誌檔案。
 
 .git/：Git 版本控制的相關資料。
 
-安裝與使用
+# 安裝與使用
 先決條件
->Ubuntu 20.04 或更高版本
->ROS Noetic
+>Ubuntu 20.04 或更高版本  
+>ROS Noetic  
 >Qt 5 開發環境
 
-達明機器人 TM5 的相關套件
-安裝步驟
+達明機器人 TM5 的相關套件  
+
+安裝步驟:
+---
 複製此專案到本地端：
 
 `git clone https://github.com/kevin00156/tm5-control-new.git`
 
-編譯專案：
+編譯專案：  
 請使用vscode，檔案中已配置好tasks.json，請根據qt的安裝路徑進行修改
 
 執行專案：
@@ -48,12 +50,12 @@ log/：存放專案的日誌檔案。
 `./tm5-control-new`
 功能
 
-控制達明機器人 TM5 的基本動作。
-ROS 節點控制及管理。
+控制達明機器人 TM5 的基本動作。  
+ROS 節點控制及管理。  
 透過圖形介面選擇檔案及控制機器人行為。
 
 
 
-開發者
-開發者名稱：Kevin
-聯絡方式：your.email@example.com
+開發者  
+開發者名稱：kevin  
+聯絡方式：qazsskevin@gmail.com
